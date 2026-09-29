@@ -29,6 +29,7 @@ let numItemsBought = 5;
 let currencySymbol = "$";
 let dollarsSpent = 20;
 let averageSpend = dollarsSpent / numItemsBought;
+let SpendSummary = userName + " bought " + numItemsBought + " items for " + currencySymbol + dollarsSpent + "." + " Each item cost an average of " + currencySymbol + averageSpend + "."
 
-console.log(userName + " bought " + numItemsBought + " items for " + currencySymbol + dollarsSpent + "." + " Each item cost an average of " + currencySymbol + averageSpend + "."); 
+console.log(SpendSummary); 
 
